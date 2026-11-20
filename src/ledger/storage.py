@@ -71,7 +71,6 @@ def load_transactions(session: Session) -> list[Transaction]:
         )
         for row in rows
     ]
-    raise NotImplementedError
 
 
 def add_transaction(
